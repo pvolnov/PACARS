@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "700758036137",
+    "firebase_url": "https://pacars-d782d.firebaseio.com",
+    "project_id": "pacars-d782d",
+    "storage_bucket": "pacars-d782d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700758036137:android:22b82653d2a21860",
+        "android_client_info": {
+          "package_name": "com.example.petr.pacars"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700758036137-mqod7bnnpm8ef1igbmcc7bk80f7ut3ii.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.petr.pacars",
+            "certificate_hash": "7b1e163d5ae8265fd650e1f2995c8aca56e62a90"
+          }
+        },
+        {
+          "client_id": "700758036137-mamenqedifu3c8p57j6i3ahracpm3g7d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMJTkRidpnO6L0hOZlgt4zMq81AdT14CA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700758036137-mamenqedifu3c8p57j6i3ahracpm3g7d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

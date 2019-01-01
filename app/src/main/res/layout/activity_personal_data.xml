@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="fill_vertical|center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".PersonalData"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/bungee_inline"
+        android:text="Fill in all fields "
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:fontFamily="@font/bungee_inline"
+        android:text="Email"
+        android:textAlignment="center"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="422dp"
+        tools:text="Email" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="358dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/common_google_signin_btn_text_light_normal_background"
+        android:ems="10"
+        android:hint="name@gmail.com"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textColorLink="@android:color/holo_blue_light"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:fontFamily="@font/bungee_inline"
+        android:text="SurName"
+        android:textAlignment="center"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="422dp"
+        tools:text="SurName" />
+
+    <EditText
+        android:id="@+id/surName"
+        android:layout_width="358dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/common_google_signin_btn_text_light_normal_background"
+        android:ems="10"
+        android:hint="Иванов"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textColorLink="@android:color/holo_blue_light"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="16dp" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:fontFamily="@font/bungee_inline"
+        android:text="name"
+        android:textAlignment="center"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="422dp"
+        tools:text="name" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="358dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/common_google_signin_btn_text_light_normal_background"
+        android:ems="10"
+        android:hint="Сергей"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textColorLink="@android:color/holo_blue_light"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="209dp" />
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:fontFamily="@font/bungee_inline"
+        android:text="Fathersname"
+        android:textAlignment="center"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="422dp"
+        tools:text="Fathersname" />
+
+    <EditText
+        android:id="@+id/Fathersname"
+        android:layout_width="358dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/common_google_signin_btn_text_light_normal_background"
+        android:ems="10"
+        android:hint="Иванович"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textColorLink="@android:color/holo_blue_light"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:fontFamily="@font/bungee_inline"
+        android:text="Phone"
+        android:textAlignment="center"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="422dp"
+        tools:text="Phone" />
+
+    <EditText
+        android:id="@+id/Phone"
+        android:layout_width="358dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/common_google_signin_btn_text_light_normal_background"
+        android:ems="10"
+        android:hint="+7 912 375 68 93"
+        android:inputType="phone"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textColorLink="@android:color/holo_blue_light"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:fontFamily="@font/bungee_inline"
+        android:text="*Последнии 4 цифры номера паспорта:"
+        android:textAlignment="center"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="422dp"
+        tools:text="the last 4 numbers of your passport nomber " />
+
+    <EditText
+        android:id="@+id/Pasport"
+        android:layout_width="354dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/common_google_signin_btn_text_light_normal_background"
+        android:ems="10"
+        android:hint="0000"
+        android:inputType="phone"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textColorLink="@android:color/holo_blue_light"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="10dp"
+        app:cardBackgroundColor="#cddeea"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp">
+
+        <Button
+            android:id="@+id/Save"
+            android:layout_width="160dp"
+            android:layout_height="46dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/bungee_inline"
+            android:onClick="Save"
+            android:text="save data"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="214dp"
+            tools:layout_editor_absoluteY="524dp" />
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
+</ScrollView>

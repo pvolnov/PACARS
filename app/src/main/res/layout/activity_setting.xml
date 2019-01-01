@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".setting">
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:fontFamily="@font/bungee_inline"
+        android:text="Choose brends"
+        android:textColor="?android:attr/colorActivatedHighlight"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/supreme_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+        android:buttonTint="@android:color/holo_orange_dark"
+        android:fontFamily="@font/bungee_inline"
+        android:text="Supreme"
+        android:textColorLink="@android:color/holo_orange_dark" />
+
+    <CheckBox
+        android:id="@+id/nike_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+        android:buttonTint="@android:color/holo_orange_dark"
+        android:fontFamily="@font/bungee_inline"
+        android:text="NIKE"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textColorLink="@android:color/holo_orange_dark"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/adidas_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+        android:buttonTint="@android:color/holo_orange_dark"
+        android:fontFamily="@font/bungee_inline"
+        android:text="adidas"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textColorLink="@android:color/holo_orange_dark"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/bungee_inline"
+        android:text="types of participation "
+        android:textColor="?android:attr/colorActivatedHighlight"
+        android:textSize="18sp" />
+
+    <Switch
+        android:id="@+id/inst_repost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee_inline"
+        android:shadowColor="@android:color/holo_blue_light"
+        android:text="Instsgram repost"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textColorHighlight="@android:color/holo_green_dark"
+        android:textColorHint="@android:color/background_dark"
+        android:textColorLink="@android:color/holo_blue_dark"
+        android:textSize="16sp"
+        android:thumbTint="@android:color/holo_blue_dark" />
+
+    <EditText
+        android:id="@+id/inst_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/unkempt"
+        android:hint="Instagram login"
+        android:inputType="textEmailAddress"
+        android:shadowColor="@android:color/holo_orange_dark"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textColorHighlight="@android:color/holo_orange_dark"
+        android:textColorLink="@android:color/holo_orange_dark" />
+
+    <EditText
+        android:id="@+id/inst_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/unkempt"
+        android:hint="Instagram password"
+        android:inputType="textPassword"
+        android:textColorLink="@android:color/holo_orange_dark" />
+
+    <Switch
+        android:id="@+id/vk_repost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee_inline"
+        android:shadowColor="@android:color/holo_blue_light"
+        android:text="VK repost"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textColorHighlight="@android:color/holo_green_dark"
+        android:textColorHint="@android:color/background_dark"
+        android:textColorLink="@android:color/holo_blue_dark"
+        android:textSize="16sp"
+        android:thumbTint="@android:color/holo_blue_dark" />
+
+    <EditText
+        android:id="@+id/vk_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/unkempt"
+        android:hint="Vk login"
+        android:inputType="textEmailAddress"
+        android:textColorLink="@android:color/holo_orange_dark" />
+
+    <EditText
+        android:id="@+id/vk_pas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/unkempt"
+        android:hint="VK password"
+        android:inputType="textPassword"
+        android:textColorLink="@android:color/holo_orange_dark" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+        android:elevation="0dp"
+        android:fontFamily="@font/bungee_inline"
+        android:text="Save settings"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_dark" />
+
+</LinearLayout>
